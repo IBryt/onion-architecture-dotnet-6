@@ -19,6 +19,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arch", "arch", "{3232FE4D-7CA9-49C8-A1D3-1807E3FE1274}"
+	ProjectSection(SolutionItems) = preProject
+		..\arch\arch-c4-class-domain-model.puml = ..\arch\arch-c4-class-domain-model.puml
+		..\arch\arch-c4-component-project-dependencies.puml = ..\arch\arch-c4-component-project-dependencies.puml
+		..\arch\arch-c4-container-deployment.puml = ..\arch\arch-c4-container-deployment.puml
+		..\arch\arch-c4-system.puml = ..\arch\arch-c4-system.puml
+		..\arch\PlantUMLSetup.ps1 = ..\arch\PlantUMLSetup.ps1
+		..\arch\SolutionStructure.argr = ..\arch\SolutionStructure.argr
+		..\arch\SolutionStructure.png = ..\arch\SolutionStructure.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
