@@ -7,8 +7,8 @@
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-    <RootNamespace>ProgramingWithPallermo.ChurchBulletin.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-    <AssemblyName>ProgramingWithPallermo.ChurchBulletin.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>ProgramingWithPalermo.ChurchBulletin.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>ProgramingWithPalermo.ChurchBulletin.$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

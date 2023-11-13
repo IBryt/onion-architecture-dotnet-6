@@ -1,7 +1,7 @@
-using ProgramingWithPallermo.ChurchBulletin.Core;
+using ProgrammingWithPalermo.ChurchBulletin.Core;
 using Shouldly;
 
-namespace ProgramingWithPallermo.ChurchBulletin.UnitTests
+namespace ProgramingWithPalermo.ChurchBulletin.UnitTests
 {
     public class Tests
     {

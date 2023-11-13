@@ -1,4 +1,4 @@
-﻿namespace ProgramingWithPallermo.ChurchBulletin.Core
+﻿namespace ProgrammingWithPalermo.ChurchBulletin.Core
 {
     public class Class1
     {

@@ -1,4 +1,4 @@
-﻿namespace Database
+﻿namespace ProgramingWithPalermo.ChurchBulletin.Database
 {
     public class Class1
     {
