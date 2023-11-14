@@ -1,4 +1,4 @@
-﻿namespace ProgrammingWithPalermo.ChurchBuletin.Core.Model;
+﻿namespace ProgrammingWithPalermo.ChurchBulletin.Core.Model;
 
 public abstract class EntityBase<T> : IEquatable<T> where T : EntityBase<T>, new()
 {

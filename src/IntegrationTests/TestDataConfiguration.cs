@@ -1,6 +1,6 @@
-﻿
-using ProgrammingWithPalermo.ChurchBulletin.DataAccess;
+﻿using ProgrammingWithPalermo.ChurchBulletin.DataAccess;
 
+namespace ProgrammingWithPalermo.ChurchBulletin.IntegrationTests;
 public class TestDataConfiguration : IDataConfiguration
 {
 

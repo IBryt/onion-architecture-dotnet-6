@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
-using ProgrammingWithPalermo.ChurchBuletin.Core.Model;
 using ProgrammingWithPalermo.ChurchBulletin.Core.Model;
 
 namespace ProgrammingWithPalermo.ChurchBulletin.DataAccess.Mappings;
