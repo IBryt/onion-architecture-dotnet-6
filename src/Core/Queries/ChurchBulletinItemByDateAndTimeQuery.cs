@@ -2,7 +2,7 @@
 
 public class ChurchBulletinItemByDateAndTimeQuery
 {
-    private DateTime TargetDate { get; }
+    public DateTime TargetDate { get; }
 
     public ChurchBulletinItemByDateAndTimeQuery(DateTime targetDate)
     {
