@@ -7,6 +7,6 @@ public class ChurchBulletinMap : EntityMapBase<ChurchBulletinItem>
 {
     protected override void MapMembers(EntityTypeBuilder<ChurchBulletinItem> entity)
     {
-
+        
     }
 }

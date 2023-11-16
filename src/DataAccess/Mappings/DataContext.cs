@@ -1,11 +1,11 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace ProgrammingWithPalermo.ChurchBulletin.DataAccess.Mappings;
 
 public class DataContext : DbContext
 {
-    public readonly IDataConfiguration _config;
+    private readonly IDataConfiguration _config;
+
     public DataContext(IDataConfiguration config)
     {
         _config = config;
@@ -21,13 +21,11 @@ public class DataContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //new ExpenseReportMap().Map(modelBuilder, "dbo")
         new ChurchBulletinMap().Map(modelBuilder);
     }
 
-    public override string? ToString()
+    public override string ToString()
     {
         return base.ToString() + "-" + GetHashCode();
     }
-
 }

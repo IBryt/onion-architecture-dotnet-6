@@ -4,20 +4,18 @@ using ProgrammingWithPalermo.ChurchBulletin.DataAccess.Mappings;
 
 namespace ProgrammingWithPalermo.ChurchBulletin.DataAccess.Handlers;
 
-public class ChurchBulletinItemByDateHandler
+public class ChurchBulletinItemByDateHandler : IChurchBulletinItemByDateHandler
 {
-    private readonly DataContext _dataContext;
+    private readonly DataContext _context;
 
-    public ChurchBulletinItemByDateHandler(DataContext dataContext)
+    public ChurchBulletinItemByDateHandler(DataContext context)
     {
-        this._dataContext = dataContext;
+        _context = context;
     }
-
     public IEnumerable<ChurchBulletinItem> Handle(ChurchBulletinItemByDateAndTimeQuery query)
     {
-        var items = _dataContext.Set<ChurchBulletinItem>()
-            .Where(item => item.Date == query.TargetDate)
-            .AsEnumerable();
+        var items = _context.Set<ChurchBulletinItem>()
+            .Where(item => item.Date == query.TargetDate).AsEnumerable();
         return items;
     }
 }
